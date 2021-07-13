@@ -59,18 +59,17 @@ function NavigBar() {
                   </svg>
                 ) : (
                   <svg
-                    className="block h-6 w-6"
+                    className="hidden"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 24 24"
+                    viewBox="0 0 0 0"
                     stroke="currentColor"
                     aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
+                      strokeWidth="0"
                     />
                   </svg>
                 )}
@@ -89,10 +88,16 @@ function NavigBar() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="block clear-both md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div
+              className="block text-center clear-both md:hidden"
+              id="mobile-menu"
+            >
+              <div
+                ref={ref}
+                className="px-2 pt-2 place-content-center pb-3 space-y-1 sm:px-3"
+              >
                 <nav>
-                  <ul class="block text-center">
+                  <ul class="-ml-12 place-self-center block text-center">
                     <li class="my-2">
                       <Link to="/">Overview</Link>
                     </li>

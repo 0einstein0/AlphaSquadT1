@@ -12,16 +12,16 @@ In the project directory, you can run:
 
 ## Homepage
 
-https://github.com/0einstein0/AlphaSquadT1/blob/master/sc2.png
+![alt text](https://github.com/0einstein0/AlphaSquadT1/blob/master/sc2.png)
 
 ## Pricing
 
-https://github.com/0einstein0/AlphaSquadT1/blob/master/sc1.png
+![alt text](https://github.com/0einstein0/AlphaSquadT1/blob/master/sc1.png)
 
 ## Case Studies
 
-https://github.com/0einstein0/AlphaSquadT1/blob/master/sc3.png
+![alt text](https://github.com/0einstein0/AlphaSquadT1/blob/master/sc3.png)
 
 ## Case Studies Inner
 
-https://github.com/0einstein0/AlphaSquadT1/blob/master/sc4.png
+![alt text](https://github.com/0einstein0/AlphaSquadT1/blob/master/sc4.png)

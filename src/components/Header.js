@@ -21,13 +21,13 @@ function Header() {
         </svg>
         <HText classs="mt-2 font-extrabold text-1xl">WEBBER</HText>
       </div>
-      <div class="place-self-center md:mb-14">
+      <div class="place-self-center  items-center md:mb-14">
         <NavigBar></NavigBar>
       </div>
-      <div class="place-self-center mb-10 md:mb-0 ">
-        <WebButton class="place-self-center rounded-sm  float-right w-1/3 h-1/3  bg-cyan-100 text-cyan-800  ">
+      <div class=" lg:mb-0 ">
+        <button class="hidden md:grid mt-4 px-4 py-2 rounded-sm text-center float-right  bg-cyan-100 text-cyan-800  ">
           Sign In
-        </WebButton>
+        </button>
       </div>
     </div>
   );

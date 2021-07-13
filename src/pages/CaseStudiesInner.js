@@ -11,13 +11,11 @@ class CaseStudiesInner extends Component {
         <div class="w-full bg-gradient-to-b from bg-blue-10 to bg-white h-auto">
           <div class="w-full place-content-center  items-center   px-16 py-7  ">
             <Header></Header>
-            <div class="grid grid-flow-col grid-cols-2">
+            <div class="grid md:grid-flow-col md:grid-cols-2">
               <div class="float-left grid gap-2 grid-flow-row w-11/12">
                 <HText classs="text-gray-600 text-md">Kanban Software</HText>
-                <HText classs="font-extrabold text-2xl md:text-4xl">
-                  Trello x Weber
-                </HText>
-                <HText classs="w-1/2 md:w-auto text-gray-600 text-md">
+                <HText classs="font-extrabold text-4xl">Trello x Weber</HText>
+                <HText classs=" text-gray-600 text-md">
                   Learn how Trello has leveraged Webber to consolidate it’s
                   diverse range of services software
                 </HText>
@@ -80,13 +78,13 @@ class CaseStudiesInner extends Component {
                   </HText>
                 </div>
               </div>
-              <div class="float-right  md:w-96">
+              <div class=" overflow-hidden float-right w-auto  md:w-96">
                 <img
                   class="mb-8 float-right"
                   src="https://i.postimg.cc/tC3Cn4Pg/Project-Cover-6.png"
                 ></img>
-                <div class="text-white h-auto w-40 md:w-auto p-4 md:p-10 grid grid-flow-row  gap-4 clear-both bg-gradient-to-r from-blue-100 via-blue-200 to-blue-50">
-                  <HText classs="font-medium w-1/4 md:w-auto text-lg">
+                <div class="text-white h-auto md:w-auto p-4 md:p-10 grid grid-flow-row  gap-4 clear-both bg-gradient-to-r from-blue-100 via-blue-200 to-blue-50">
+                  <HText classs="font-medium md:w-auto text-lg">
                     Get Webber for your organization
                   </HText>
                   <HText classs="text-sm md:w-auto">
@@ -95,11 +93,11 @@ class CaseStudiesInner extends Component {
                     form, by injected humour, or randomised words which don't
                     look.
                   </HText>
-                  <div class="grid md:grid-flow-col gap-2">
-                    <button class="place-self-center rounded-sm p-2 md:py-2 md:px-4 m  text-blue-100 bg-white ">
+                  <div class="grid grid-flow-col gap-2">
+                    <button class="place-self-center rounded-sm p-2  md:py-2 md:px-4 m  text-blue-100 bg-white ">
                       Start trial
                     </button>
-                    <button class="place-self-center rounded-sm p-2  text-white border-2 border-white bg-transparent ">
+                    <button class="place-self-center rounded-sm p-1   text-white border-2 border-white bg-transparent ">
                       Contact sales
                     </button>
                   </div>
@@ -110,7 +108,7 @@ class CaseStudiesInner extends Component {
           <hr />
           <div class="overflow-x-auto  md:p-4 bg-gray-50">
             <HText classs="ml-6 mtext-xl font-bold">More case studies</HText>
-            <div class="grid grid-flow-col place-content-center gap-6 ">
+            <div class="grid md:grid-flow-col place-content-center gap-6 ">
               <Studies
                 src="https://i.postimg.cc/CKcFPp2j/Project-Cover.png"
                 sub="Technology - SaaS"
@@ -139,8 +137,8 @@ class CaseStudiesInner extends Component {
           </div>
         </div>
 
-        <hr class="" />
-        <footer class="bg-gray-100  grid grid-flow-col p-10 gap-14 md:gap-8 md:p-20 ">
+        <hr class="mt-10 md:mt-0" />
+        <footer class="bg-gray-100 p-10 mx-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 pt-6  ">
           <div class="grid grid-flow-row gap-8">
             <div class="block">
               <svg
@@ -161,7 +159,7 @@ class CaseStudiesInner extends Component {
               <HText classs="text-gray-500">Copyright © 2021 WEBBER.</HText>
               <HText classs="mt-2 text-gray-500">All rights reserved</HText>
             </div>
-            <div>
+            <div class="mb-4 md:mb-0">
               <svg
                 width="80"
                 height="32"
@@ -184,30 +182,32 @@ class CaseStudiesInner extends Component {
               </svg>
             </div>
           </div>
-          <div class="grid md:grid-flow-col gap-8">
-            <div class="grid grid-flow-row md:gap-4 ">
-              <HText classs="text-gray-700 text-xl">Company</HText>
-              <HText classs=" text-gray-500">About us</HText>
-              <HText classs=" text-gray-500">Blog</HText>
-              <HText classs=" text-gray-500">Contact us</HText>
-              <HText classs=" text-gray-500">Pricing</HText>
-              <HText classs=" text-gray-500">Testimonials</HText>
-            </div>
+          <div class="grid lg:grid-flow-col gap-18">
+            <div class="grid grid-flow-col md:grid-flow-col gap-10 md:gap-20">
+              <div class="grid grid-flow-row gap-2 md:gap-4 ">
+                <HText classs="text-gray-700 text-xl">Company</HText>
+                <HText classs=" text-gray-500">About us</HText>
+                <HText classs=" text-gray-500">Blog</HText>
+                <HText classs=" text-gray-500">Contact us</HText>
+                <HText classs=" text-gray-500">Pricing</HText>
+                <HText classs=" text-gray-500">Testimonials</HText>
+              </div>
 
-            <div class="grid grid-flow-row ">
-              <HText classs="text-gray-700 text-xl">Support</HText>
-              <HText classs=" text-gray-500">Help center</HText>
-              <HText classs=" text-gray-500">Terms of service</HText>
-              <HText classs=" text-gray-500">Legal</HText>
-              <HText classs=" text-gray-500">Privacy policy</HText>
-              <HText classs=" text-gray-500">Status</HText>
+              <div class="grid grid-flow-row gap-2 w-auto md:w-40 ">
+                <HText classs="text-gray-700 text-xl">Support</HText>
+                <HText classs=" text-gray-500">Help center</HText>
+                <HText classs=" text-gray-500">Terms of service</HText>
+                <HText classs=" text-gray-500">Legal</HText>
+                <HText classs=" text-gray-500">Privacy policy</HText>
+                <HText classs=" text-gray-500">Status</HText>
+              </div>
             </div>
-            <div class="overflow-x-auto grid grid-flow-row place-content-start gap-4 ">
+            <div class=" lg:mt-0 md:mt-5 mt-10 grid grid-flow-row place-content-start gap-4 ">
               <HText classs="text-gray-700 text-xl">Get Updates and more</HText>
-              <div class="grid grid-flow-col place-content-center gap-6 ">
+              <div class="grid grid-flow-col place-content-center md:gap-6 ">
                 <input
                   type="text"
-                  class="rounded-md p-6 h-4"
+                  class="rounded-md w-full h-2 md:w-auto p-6 md:h-4"
                   placeholder="Your email address"
                 ></input>
                 <button class="place-self-center p-3 rounded-sm  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">

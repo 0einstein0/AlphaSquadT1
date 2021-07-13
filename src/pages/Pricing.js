@@ -30,8 +30,8 @@ class Pricing extends Component {
                 </WebButton>
               </div>
             </div>
-            <div class="grid grid-flow-col grid-cols-4 gap-6 md:gap-6 ">
-              <div class="grid grid-flow-row gap-4 -ml-10 md:ml-0 text-sm md:gap-6 ">
+            <div class="grid grid-cols-2 md:grid-flow-col md:grid-cols-4 gap-6 md:gap-6 ">
+              <div class="grid grid-flow-row  gap-4 md:text-lg  -ml-10 md:ml-0 text-sm md:gap-6 ">
                 <HText classs="text-gray-700  "></HText>
                 <HText classs="text-gray-700 h-20 md:h-20"></HText>
                 <HText classs="text-gray-700 ">All limited links</HText>
@@ -45,8 +45,8 @@ class Pricing extends Component {
                 <HText classs=" h-12"></HText>
               </div>
 
-              <div class="grid place-content-center text-center  grid-flow-row gap-11 md:gap-10 ">
-                <HText classs="text-gray-700 font-bold text-lg md:text-3xl ">
+              <div class="grid place-content-center text-center  grid-flow-row mb-10 md:mb-0 gap-11 md:gap-10 ">
+                <HText classs="text-gray-700 w-32 md:w-auto font-bold text-lg md:text-3xl ">
                   {" "}
                   Starter
                 </HText>
@@ -152,11 +152,24 @@ class Pricing extends Component {
                     fill="#27272A"
                   />
                 </svg>
-                <button class="overflow-hidden font-semibold p-1 w-5/6 md:w-auto rounded-sm md:p-4 md:text-md text-sm  bg-cyan-100 text-cyan-800">
+                <button class=" px-2 py-2 place-self-center  font-semibold  md:w-auto md:p-4 text-sm md:text-md  rounded-sm  bg-cyan-100 text-cyan-800">
                   Choose plan
                 </button>
               </div>
-              <div class="bg-white p-1 md:p-4 grid place-content-center text-center grid-flow-row gap-11 md:gap-10 shadow-2xl  ">
+              <div class="md:hidden grid grid-flow-row gap-4 -ml-10 md:ml-0 text-sm md:text-md md:gap-6 ">
+                <HText classs="text-gray-700  "></HText>
+                <HText classs="text-gray-700 h-24 md:h-20"></HText>
+                <HText classs="text-gray-700 ">All limited links</HText>
+                <HText classs=" text-gray-700">Own analytics platform</HText>
+                <HText classs=" text-gray-700">Chat support</HText>
+                <HText classs=" text-gray-700">Number of users</HText>
+                <HText classs=" text-gray-700">Optimize hashtags</HText>
+                <HText classs=" text-gray-700">Account manager</HText>
+                <HText classs=" text-gray-700">Number of articles</HText>
+                <HText classs=" text-gray-700">Satisfaction guaranteed</HText>
+                <HText classs=" h-12"></HText>
+              </div>
+              <div class="bg-white w-32 md:w-auto p-2 md:p-4 mb-10 md:mb-0  grid place-content-center text-center grid-flow-row gap-11 md:gap-10 shadow-2xl  ">
                 <HText classs="text-blue-100 font-bold text-lg md:text-3xl  ">
                   {" "}
                   Pro
@@ -263,12 +276,25 @@ class Pricing extends Component {
                     fill="#27272A"
                   />
                 </svg>
-                <button class="overflow-hidden rounded-sm p-1 md:p-4 text-sm md:text-md  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">
+                <button class="overflow-hidden rounded-sm  px-2 py-1 md:p-4 text-sm md:text-md  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">
                   Choose plan
                 </button>
               </div>
+              <div class="md:hidden grid grid-flow-row gap-4 -ml-10 md:ml-0 text-sm md:gap-6 ">
+                <HText classs="text-gray-700  "></HText>
+                <HText classs="text-gray-700 h-20 md:h-20"></HText>
+                <HText classs="text-gray-700 ">All limited links</HText>
+                <HText classs=" text-gray-700">Own analytics platform</HText>
+                <HText classs=" text-gray-700">Chat support</HText>
+                <HText classs=" text-gray-700">Number of users</HText>
+                <HText classs=" text-gray-700">Optimize hashtags</HText>
+                <HText classs=" text-gray-700">Account manager</HText>
+                <HText classs=" text-gray-700">Number of articles</HText>
+                <HText classs=" text-gray-700">Satisfaction guaranteed</HText>
+                <HText classs=" h-12"></HText>
+              </div>
               <div class="md:ml-0  grid place-content-center text-center grid-flow-row gap-11 md:gap-10 ">
-                <HText classs="text-gray-700 md:w-auto w-8 font-bold text-lg md:text-3xl  ">
+                <HText classs="text-gray-700 w-32 md:w-auto  font-bold text-lg md:text-3xl  ">
                   {" "}
                   Enterprise
                 </HText>
@@ -374,35 +400,35 @@ class Pricing extends Component {
                     fill="#27272A"
                   />
                 </svg>
-                <button class="overflow-hidden place-self-center  font-semibold  md:w-auto md:p-4 text-sm md:text-md  rounded-sm  bg-cyan-100 text-cyan-800">
+                <button class=" px-2 py-2 place-self-center  font-semibold  md:w-auto md:p-4 text-sm md:text-md  rounded-sm  bg-cyan-100 text-cyan-800">
                   Choose plan
                 </button>
               </div>
             </div>
           </div>
 
-          <div class=" p-14  grid grid-flow-row place-content-center items-center  bg-gray-50">
+          <div class=" p-14  grid grid-flow-row place-content-center   bg-gray-50">
             <HText classs=" mb-16 font-extrabold  text-center text-5xl ">
               Frequently asked questions
             </HText>
-            <div class="p-8 place-content-center  gap-14 grid grid-flow-row grid-rows-3">
-              <div class=" grid  grid-flow-col grid-cols-2">
+            <div class="md:ml-20 place-content-center p-8   text-center md:text-left gap-6 md:gap-14 grid grid-flow-row grid-rows-3">
+              <div class="place-self-center gap-4 grid md:grid-flow-col md:grid-cols-2">
                 <Faq heading="How do I use the webber for 3+ members?"></Faq>
                 <Faq heading="What does early access mean"></Faq>
               </div>
-              <div class="grid grid-flow-col grid-cols-2">
+              <div class="grid md:grid-flow-col gap-4 md:grid-cols-2">
                 <Faq heading="Whats the best way to make the most out of it?"></Faq>
                 <Faq heading="How are enterprise package customers accomodated?"></Faq>
               </div>
-              <div class="grid grid-flow-col grid-cols-2">
+              <div class="grid gap-4  md:gap-0 md:mt-0 md:grid-flow-col md:grid-cols-2">
                 <Faq heading="How do I use the webber for 3+ members?"></Faq>
                 <Faq heading="How do I use the webber for 3+ members?"></Faq>
               </div>
             </div>
           </div>
 
-          <Grad>
-            <div class="grid text-white items-center grid-flow-row text-center place-content-center ">
+          <div class="md:w-full h-auto   p-10 grid md:grid-flow-col  clear-both bg-gradient-to-r from-blue-100 via-blue-200 to-blue-50">
+            <div class=" grid text-white items-center grid-flow-row text-center place-content-center ">
               <h2 class=" text-5xl place-self-center font-semibold">
                 Get results, no matter what
               </h2>
@@ -416,10 +442,9 @@ class Pricing extends Component {
                 Start free trial
               </WebButton>
             </div>
-          </Grad>
+          </div>
         </div>
-
-        <footer class="bg-gray-100  grid grid-flow-col p-10 gap-14 md:gap-8 md:p-20 ">
+        <footer class="bg-gray-100 p-10 mx-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 pt-6  ">
           <div class="grid grid-flow-row gap-8">
             <div class="block">
               <svg
@@ -440,7 +465,7 @@ class Pricing extends Component {
               <HText classs="text-gray-500">Copyright © 2021 WEBBER.</HText>
               <HText classs="mt-2 text-gray-500">All rights reserved</HText>
             </div>
-            <div>
+            <div class="mb-4 md:mb-0">
               <svg
                 width="80"
                 height="32"
@@ -463,30 +488,32 @@ class Pricing extends Component {
               </svg>
             </div>
           </div>
-          <div class="grid md:grid-flow-col gap-8">
-            <div class="grid grid-flow-row md:gap-4 ">
-              <HText classs="text-gray-700 text-xl">Company</HText>
-              <HText classs=" text-gray-500">About us</HText>
-              <HText classs=" text-gray-500">Blog</HText>
-              <HText classs=" text-gray-500">Contact us</HText>
-              <HText classs=" text-gray-500">Pricing</HText>
-              <HText classs=" text-gray-500">Testimonials</HText>
-            </div>
+          <div class="grid lg:grid-flow-col gap-18">
+            <div class="grid grid-flow-col md:grid-flow-col gap-10 md:gap-20">
+              <div class="grid grid-flow-row gap-2 md:gap-4 ">
+                <HText classs="text-gray-700 text-xl">Company</HText>
+                <HText classs=" text-gray-500">About us</HText>
+                <HText classs=" text-gray-500">Blog</HText>
+                <HText classs=" text-gray-500">Contact us</HText>
+                <HText classs=" text-gray-500">Pricing</HText>
+                <HText classs=" text-gray-500">Testimonials</HText>
+              </div>
 
-            <div class="grid grid-flow-row ">
-              <HText classs="text-gray-700 text-xl">Support</HText>
-              <HText classs=" text-gray-500">Help center</HText>
-              <HText classs=" text-gray-500">Terms of service</HText>
-              <HText classs=" text-gray-500">Legal</HText>
-              <HText classs=" text-gray-500">Privacy policy</HText>
-              <HText classs=" text-gray-500">Status</HText>
+              <div class="grid grid-flow-row gap-2 w-auto md:w-40 ">
+                <HText classs="text-gray-700 text-xl">Support</HText>
+                <HText classs=" text-gray-500">Help center</HText>
+                <HText classs=" text-gray-500">Terms of service</HText>
+                <HText classs=" text-gray-500">Legal</HText>
+                <HText classs=" text-gray-500">Privacy policy</HText>
+                <HText classs=" text-gray-500">Status</HText>
+              </div>
             </div>
-            <div class="overflow-x-auto  grid grid-flow-row place-content-start gap-4 ">
+            <div class=" lg:mt-0 md:mt-5 mt-10 grid grid-flow-row place-content-start gap-4 ">
               <HText classs="text-gray-700 text-xl">Get Updates and more</HText>
-              <div class="grid grid-flow-col place-content-center gap-6 ">
+              <div class="grid grid-flow-col place-content-center md:gap-6 ">
                 <input
                   type="text"
-                  class="rounded-md p-6 h-4"
+                  class="rounded-md w-full h-2 md:w-auto p-6 md:h-4"
                   placeholder="Your email address"
                 ></input>
                 <button class="place-self-center p-3 rounded-sm  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">

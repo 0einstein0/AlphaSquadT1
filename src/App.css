@@ -25,6 +25,10 @@
   color: white;
 }
 
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
 .App-link {
   color: #61dafb;
 }

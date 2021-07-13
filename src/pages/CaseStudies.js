@@ -20,15 +20,15 @@ class CaseStudies extends Component {
                 Webber to tackle <br />
                 different use cases and get ahead of the competition
               </HText>
-              <div class="w-3/4 p-4 border-2 place-self-center grid grid-flow-col gap-8 place-content-center  border-gray-300 rounded-sm">
+              <div class="w-3/4 p-4 border-2 place-self-center grid md:grid-flow-col gap-8 place-content-center  border-gray-300 rounded-sm">
                 <WSelect label="Region: "></WSelect>
                 <WSelect label="Industry: "></WSelect>
                 <WSelect label="Type: "></WSelect>
               </div>
             </div>
-            <div class="mt-16  grid grid-flow-row grid-cols-2 gap-14 md:gap-4 place-content-center ">
+            <div class="mt-16 grid mgrid-flow-row md:grid-cols-2 gap-14 md:gap-4 place-content-center ">
               <Studies
-                classs="mt-40"
+                classs="md:mt-40"
                 src="https://i.postimg.cc/CKcFPp2j/Project-Cover.png"
                 sub="Technology - SaaS"
                 heading="Adobe Systems Inc"
@@ -41,7 +41,7 @@ class CaseStudies extends Component {
                 desc="Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software"
               ></Studies>
               <Studies
-                classs="mt-40"
+                classs="md:mt-40"
                 src="https://i.postimg.cc/QxgJyjQ9/Project-Cover-1.png"
                 sub="Technology - SaaS"
                 heading="Gutkowski, Schuppe and Pagac"
@@ -54,7 +54,7 @@ class CaseStudies extends Component {
                 desc="Learn how Trello has leveraged Webber to consolidate it’s diverse range of services software"
               ></Studies>
               <Studies
-                classs="mt-40"
+                classs="md:mt-40"
                 src="https://i.postimg.cc/65zGZqV0/Project-Cover-3.png.png"
                 sub="Technology - SaaS"
                 heading="Virtual Reality"

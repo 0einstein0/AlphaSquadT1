@@ -5,10 +5,10 @@ function NavigBar({ ...otherProps }) {
   return (
     <div
       {...otherProps}
-      class=" px-16 py-7 self-center grid grid-flow-col auto-cols-max gap-4"
+      class=" px-16 py-7  self-center grid grid-flow-col auto-cols-max gap-4"
     >
       <nav>
-        <ul class="grid grid-flow-col gap-8">
+        <ul class="grid grid-flow-row gap-4 text-center md:grid md:grid-flow-col md:gap-8">
           <li>
             <Link to="/">Overview</Link>
           </li>

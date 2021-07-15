@@ -78,9 +78,9 @@ class CaseStudiesInner extends Component {
                   </HText>
                 </div>
               </div>
-              <div class=" overflow-hidden float-right w-auto  md:w-96">
+              <div class=" overflow-hidden float-right  w-auto  md:w-96">
                 <img
-                  class="mb-8 float-right"
+                  class="mb-8 lg:mt-0 mt-4 lg:float-right"
                   src="https://i.postimg.cc/tC3Cn4Pg/Project-Cover-6.png"
                 ></img>
                 <div class="text-white h-auto md:w-auto p-4 md:p-10 grid grid-flow-row  gap-4 clear-both bg-gradient-to-r from-blue-100 via-blue-200 to-blue-50">
@@ -94,10 +94,10 @@ class CaseStudiesInner extends Component {
                     look.
                   </HText>
                   <div class="grid grid-flow-col gap-2">
-                    <button class="place-self-center rounded-sm p-2  md:py-2 md:px-4 m  text-blue-100 bg-white ">
+                    <button class="place-self-center rounded-sm p-2 px-2 md:py-2 md:px-4 m  text-blue-100 bg-white ">
                       Start trial
                     </button>
-                    <button class="place-self-center rounded-sm p-1   text-white border-2 border-white bg-transparent ">
+                    <button class="place-self-center rounded-sm p-1 py-2  text-white border-2 border-white bg-transparent ">
                       Contact sales
                     </button>
                   </div>
@@ -106,9 +106,13 @@ class CaseStudiesInner extends Component {
             </div>
           </div>
           <hr />
-          <div class="overflow-x-auto  md:p-4 bg-gray-50">
-            <HText classs="ml-6 mtext-xl font-bold">More case studies</HText>
-            <div class="grid md:grid-flow-col place-content-center gap-6 ">
+          <div class="grid grid-flow-row   bg-gray-50">
+            <div class=" place-content-center pl-14 lg:ml-0 lg:px-2  py-2 bg-gray-50">
+              <HText classs=" lg:px-5  text-xl font-bold">
+                More case studies
+              </HText>
+            </div>
+            <div class="grid mb-8 md:grid-flow-col place-content-center ">
               <Studies
                 src="https://i.postimg.cc/CKcFPp2j/Project-Cover.png"
                 sub="Technology - SaaS"
@@ -137,7 +141,7 @@ class CaseStudiesInner extends Component {
           </div>
         </div>
 
-        <hr class="mt-10 md:mt-0" />
+        <hr class="sm:mt-0 md:mt-0" />
         <footer class="bg-gray-100 p-10 mx-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 pt-6  ">
           <div class="grid grid-flow-row gap-8">
             <div class="block">
@@ -204,7 +208,7 @@ class CaseStudiesInner extends Component {
             </div>
             <div class=" lg:mt-0 md:mt-5 mt-10 grid grid-flow-row place-content-start gap-4 ">
               <HText classs="text-gray-700 text-xl">Get Updates and more</HText>
-              <div class="grid grid-flow-col place-content-center md:gap-6 ">
+              <div class="grid grid-flow-col place-content-center  ">
                 <input
                   type="text"
                   class="rounded-md w-full h-2 md:w-auto p-6 md:h-4"

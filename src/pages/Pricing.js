@@ -169,7 +169,7 @@ class Pricing extends Component {
                 <HText classs=" text-gray-700">Satisfaction guaranteed</HText>
                 <HText classs=" h-12"></HText>
               </div>
-              <div class="bg-white w-32 md:w-auto p-2 md:p-4 mb-10 md:mb-0  grid place-content-center text-center grid-flow-row gap-11 md:gap-10 shadow-2xl  ">
+              <div class="bg-white md:w-auto p-2 md:p-4 mb-10 md:mb-0  lg:ml-0 md:ml-0  grid place-content-center text-center grid-flow-row gap-11 md:gap-10  shadow-2xl  ">
                 <HText classs="text-blue-100 font-bold text-lg md:text-3xl  ">
                   {" "}
                   Pro
@@ -510,7 +510,7 @@ class Pricing extends Component {
             </div>
             <div class=" lg:mt-0 md:mt-5 mt-10 grid grid-flow-row place-content-start gap-4 ">
               <HText classs="text-gray-700 text-xl">Get Updates and more</HText>
-              <div class="grid grid-flow-col place-content-center md:gap-6 ">
+              <div class="grid grid-flow-col place-content-center ">
                 <input
                   type="text"
                   class="rounded-md w-full h-2 md:w-auto p-6 md:h-4"

@@ -5,8 +5,8 @@ import HText from "./HText";
 
 function Header() {
   return (
-    <div class="place-content-center grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-36">
-      <div class="place-self-center block">
+    <div class="lg:place-content-center grid sm:w-full sm:justify-between grid-flow-col gap-20 mb-10 lg:grid-cols-3 xl:grid-cols-3 lg:gap-36">
+      <div class="lg:place-self-center sm:float-left block ">
         <svg
           width="74"
           height="43"
@@ -21,7 +21,7 @@ function Header() {
         </svg>
         <HText classs="mt-2 font-extrabold text-1xl">WEBBER</HText>
       </div>
-      <div class="place-self-center  items-center md:mb-14">
+      <div class="lg:place-self-center sm:float-right sm:place-content-end  lg:items-center md:mb-14">
         <NavigBar></NavigBar>
       </div>
       <div class=" lg:mb-0 ">

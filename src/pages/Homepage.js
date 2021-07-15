@@ -14,7 +14,7 @@ class Homepage extends Component {
           <div class="  items-center  px-16 py-7  ">
             <Header></Header>
             <div class="md:place-self-center grid grid-flow-row ">
-              <HText classs="mb-16 font-extrabold text-center text-3xl  md:text-7xl leading-normal">
+              <HText classs="mb-16 font-extrabold text-center text-5xl  md:text-7xl leading-normal">
                 DEPLOY YOUR <br />
                 FRONT-END
               </HText>
@@ -184,41 +184,43 @@ class Homepage extends Component {
                 How it works
               </HText>
             </div>
-            <div class="lg:float-right mb-20 sm:place-content-center w-auto md:mt-0 ">
-              <img
-                class="sm:place-self-center"
-                src="https://i.postimg.cc/fTMMzq82/Group-256.png"
-              />
-            </div>
-            <div class=" md:mt-36 mt-20 lg:float-left lg:w-5/12">
-              <HText classs=" font-bold  text-4xl ">Sign Up</HText>
-              <p class="mt-6 mb-6 text-md">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-                vitae a consectetur dolor. Elementum habitant urna, ac quis
-                laoreet urna purus. Aliquam at est vel auctor rhoncus et. Sit ac
-                enim, malesuada mattis. Dignissim nibh augue posuer
-              </p>
-              <WebButton class=" mt-4 mb-10 md:mb-0 float-left rounded-sm  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">
-                Learn more
-              </WebButton>
-              <svg
-                class="mt-2 hidden md:grid  md:float-right"
-                width="90"
-                height="60"
-                viewBox="0 0 107 60"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <ellipse cx="76.5" cy="30" rx="30.5" ry="30" fill="#0891B2" />
-                <path
-                  d="M87.8839 30.8839C88.372 30.3957 88.372 29.6043 87.8839 29.1161L79.9289 21.1612C79.4408 20.673 78.6493 20.673 78.1612 21.1612C77.673 21.6493 77.673 22.4408 78.1612 22.9289L85.2322 30L78.1612 37.0711C77.673 37.5592 77.673 38.3507 78.1612 38.8388C78.6493 39.327 79.4408 39.327 79.9289 38.8388L87.8839 30.8839ZM66 31.25L87 31.25L87 28.75L66 28.75L66 31.25Z"
-                  fill="white"
+            <div className="flex lg:flex-row flex-col items-center justify-between">
+              <div class=" w-auto md:mt-0 ">
+                <img
+                  class="sm:place-self-center"
+                  src="https://i.postimg.cc/fTMMzq82/Group-256.png"
                 />
-                <path
-                  d="M0.292893 30.2929C-0.0976314 30.6834 -0.0976315 31.3166 0.292892 31.7071L6.65685 38.0711C7.04738 38.4616 7.68054 38.4616 8.07107 38.0711C8.46159 37.6805 8.46159 37.0474 8.07107 36.6569L2.41421 31L8.07107 25.3431C8.46159 24.9526 8.46159 24.3195 8.07107 23.9289C7.68054 23.5384 7.04738 23.5384 6.65686 23.9289L0.292893 30.2929ZM22 30L1 30L1 32L22 32L22 30Z"
-                  fill="#1F2937"
-                />
-              </svg>
+              </div>
+              <div class=" md:mt-36 mt-20 lg:float-left lg:w-5/12">
+                <HText classs=" font-bold  text-4xl ">Sign Up</HText>
+                <p class="mt-6 mb-6 text-md">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+                  vitae a consectetur dolor. Elementum habitant urna, ac quis
+                  laoreet urna purus. Aliquam at est vel auctor rhoncus et. Sit
+                  ac enim, malesuada mattis. Dignissim nibh augue posuer
+                </p>
+                <WebButton class=" mt-4 mb-10 md:mb-0 float-left rounded-sm  bg-gradient-to-r from-blue-200 via-blue-100 to-blue-100 text-white ">
+                  Learn more
+                </WebButton>
+                <svg
+                  class="mt-2 hidden md:grid  md:float-right"
+                  width="90"
+                  height="60"
+                  viewBox="0 0 107 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse cx="76.5" cy="30" rx="30.5" ry="30" fill="#0891B2" />
+                  <path
+                    d="M87.8839 30.8839C88.372 30.3957 88.372 29.6043 87.8839 29.1161L79.9289 21.1612C79.4408 20.673 78.6493 20.673 78.1612 21.1612C77.673 21.6493 77.673 22.4408 78.1612 22.9289L85.2322 30L78.1612 37.0711C77.673 37.5592 77.673 38.3507 78.1612 38.8388C78.6493 39.327 79.4408 39.327 79.9289 38.8388L87.8839 30.8839ZM66 31.25L87 31.25L87 28.75L66 28.75L66 31.25Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M0.292893 30.2929C-0.0976314 30.6834 -0.0976315 31.3166 0.292892 31.7071L6.65685 38.0711C7.04738 38.4616 7.68054 38.4616 8.07107 38.0711C8.46159 37.6805 8.46159 37.0474 8.07107 36.6569L2.41421 31L8.07107 25.3431C8.46159 24.9526 8.46159 24.3195 8.07107 23.9289C7.68054 23.5384 7.04738 23.5384 6.65686 23.9289L0.292893 30.2929ZM22 30L1 30L1 32L22 32L22 30Z"
+                    fill="#1F2937"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
@@ -266,7 +268,7 @@ class Homepage extends Component {
           <HText classs="font-extrabold text-center place-self-center text-3xl md:text-5xl mt-10 mb-20 lg:mb-10 ">
             Brands using our services
           </HText>
-          <div class="md:mb-32 grid place-self-center sm:grid-flow-row sm:grid-cols-2 sm:gap-0   mb-40 gap-8 md:gap-10 grid-cols-2 lg:grid-flow-col lg:grid-rows-2">
+          <div class="md:mb-32 grid place-self-center sm:grid-flow-row sm:grid-cols-2 sm:gap-8  mb-40 gap-8 md:gap-10 grid-cols-2 lg:grid-flow-col lg:grid-rows-2">
             <Cards img="https://i.postimg.cc/3wMkB5j8/Microsoft-Logo.png"></Cards>
             <Cards img="https://i.postimg.cc/X7mPQQrN/OYO-Logo-1.png"></Cards>
             <Cards img="https://i.postimg.cc/W46fpVXt/Walmart-Logo.png"></Cards>
@@ -372,7 +374,7 @@ class Homepage extends Component {
             </div>
             <div class=" lg:mt-0 md:mt-5 mt-10 grid grid-flow-row place-content-start gap-4 ">
               <HText classs="text-gray-700 text-xl">Get Updates and more</HText>
-              <div class="grid grid-flow-col place-content-center md:gap-6 ">
+              <div class="grid grid-flow-col place-content-center ">
                 <input
                   type="text"
                   class="rounded-md w-full h-2 md:w-auto p-6 md:h-4"
